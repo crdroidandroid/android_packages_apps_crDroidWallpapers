@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2017 crDroid Android Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+    
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="wallpapers" translatable="false">
+        <item>canyonsdawn</item>
+        <item>citybeach</item>
+        <item>citybridgeday</item>
+        <item>citybridgesunset</item>
+        <item>cityriversunset</item>
+        <item>lakeviewday</item>
+        <item>lakeviewnight</item>
+        <item>lakeviewsunset</item>
+        <item>mountainsday</item>
+        <item>summer</item>
+        <item>winter</item>
+    </string-array>
+
+    <string-array name="info" translatable="false">
+        <item>Material - Canyons Dawn</item>
+        <item>Material - City Beach</item>
+        <item>Material - City Bridge Day</item>
+        <item>Material - City Bridge Sunset</item>
+        <item>Material - City River Sunset</item>
+        <item>Material - Lake View Day</item>
+        <item>Material - Lake View Night</item>
+        <item>Material - Lake View Sunset</item>
+        <item>Material - Mountains Day</item>
+        <item>Material - Summer</item>
+        <item>Material - Winter</item>
+	</string-array>
+</resources>

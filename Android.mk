@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017 The Android Open Source Project
+# Copyright (C) 2017 crDroid Android Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,13 +15,13 @@
 #
 
 LOCAL_PATH := $(call my-dir)
-
-# Standalone Wallpaper picker app
-# ========================================================
 include $(CLEAR_VARS)
+
+LOCAL_SRC_FILES := $(call all-subdir-java-files)
+
 LOCAL_MODULE_TAGS := optional
-LOCAL_STATIC_JAVA_LIBRARIES := android-support-v4
-LOCAL_SRC_FILES := $(call all-java-files-under, src)
+
+LOCAL_PACKAGE_NAME := crDroidWallpapers
 
 LOCAL_RESOURCE_DIR := \
     $(LOCAL_PATH)/res \
@@ -29,6 +29,4 @@ LOCAL_RESOURCE_DIR := \
 
 LOCAL_AAPT_FLAGS := --auto-add-overlay
 
-LOCAL_PACKAGE_NAME := crDroidWallpapers
 include $(BUILD_PACKAGE)
-
