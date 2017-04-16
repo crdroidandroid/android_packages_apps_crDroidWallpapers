@@ -16,6 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string-array name="wallpapers" translatable="false">
+        <item>oreo1</item>
+        <item>oreo2</item>
+        <item>oreo3</item>
+        <item>oreo4</item>
         <item>canyonsdawn</item>
         <item>citybeach</item>
         <item>citybridgeday</item>
@@ -30,6 +34,10 @@
     </string-array>
 
     <string-array name="info" translatable="false">
+        <item>Material Oreo - Gaurav Mantri</item>
+        <item>Material Oreo - Gaurav Mantri</item>
+        <item>Material Oreo - Gaurav Mantri</item>
+        <item>Material Oreo - Gaurav Mantri</item>
         <item>Material - Canyons Dawn</item>
         <item>Material - City Beach</item>
         <item>Material - City Bridge Day</item>
